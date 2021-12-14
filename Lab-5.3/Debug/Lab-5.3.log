@@ -1,0 +1,8 @@
+﻿  Lab-5.3.cpp
+C:\Users\asus\source\repos\Lab-5.3\Lab-5.3\Lab-5.3.cpp(16,16): error C2296: *: недопустимо, левый операнд имеет тип "double (__cdecl *)(const double)"
+C:\Users\asus\source\repos\Lab-5.3\Lab-5.3\Lab-5.3.cpp(16,21): error C2297: *: недопустимо, правый оператор имеет тип "double (__cdecl *)(const double)"
+C:\Users\asus\source\repos\Lab-5.3\Lab-5.3\Lab-5.3.cpp(25,39): error C2665: pow: ни одна из 3 перегрузок не может преобразовать все типы аргументов
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cmath(486,46): message : может быть "long double pow(long double,long double) noexcept"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\cmath(222,40): message : или       "float pow(float,float) noexcept"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h(480,35): message : или       "double pow(double,double)"
+C:\Users\asus\source\repos\Lab-5.3\Lab-5.3\Lab-5.3.cpp(25,39): message : при попытке сопоставить список аргументов "(overloaded-function, const double)"
